@@ -1,0 +1,173 @@
+{
+  "metadata": {
+    "transformation_timestamp": "2024-09-13T10:30:00.000000",
+    "source": {
+      "year": 2024,
+      "timestamp": "2024-09-13T10:25:00.000000",
+      "source": "footballdb.com"
+    },
+    "transformation_version": "1.0"
+  },
+  "team_defense_rankings": {
+    "rankings": [
+      {
+        "team": "Pittsburgh",
+        "games_played": 8,
+        "points_per_game_allowed": 16.2,
+        "yards_per_game_allowed": 298.5,
+        "sacks_per_game": 3.1,
+        "turnovers_per_game": 2.4,
+        "strength_score": 12.8,
+        "rank": 1,
+        "percentile": 96.9,
+        "category": "Elite",
+        "fantasy_impact": "High"
+      },
+      {
+        "team": "Buffalo",
+        "games_played": 8,
+        "points_per_game_allowed": 18.9,
+        "yards_per_game_allowed": 312.8,
+        "sacks_per_game": 2.8,
+        "turnovers_per_game": 1.9,
+        "strength_score": 15.2,
+        "rank": 2,
+        "percentile": 93.8,
+        "category": "Elite",
+        "fantasy_impact": "High"
+      }
+    ],
+    "summary": {
+      "total_teams": 32,
+      "elite_defenses": 6,
+      "poor_defenses": 6,
+      "avg_points_allowed": 22.4,
+      "avg_yards_allowed": 342.1
+    }
+  },
+  "defense_adjusted_players": {
+    "QB": [
+      {
+        "player_name": "Josh Allen",
+        "team": "Buffalo",
+        "position": "QB",
+        "games_played": 8,
+        "completions": 198,
+        "attempts": 298,
+        "passing_yards": 2543,
+        "touchdowns": 18,
+        "interceptions": 5,
+        "base_fantasy_points": 173.72,
+        "adjusted_fantasy_points": 173.72,
+        "completion_percentage": 66.4,
+        "yards_per_attempt": 8.5,
+        "td_int_ratio": 3.6,
+        "fantasy_points_per_game": 21.7,
+        "position_rank": 1
+      }
+    ],
+    "RB": [
+      {
+        "player_name": "Christian McCaffrey",
+        "team": "San Francisco",
+        "position": "RB",
+        "games_played": 8,
+        "carries": 145,
+        "rushing_yards": 687,
+        "rushing_tds": 8,
+        "base_fantasy_points": 116.7,
+        "adjusted_fantasy_points": 116.7,
+        "yards_per_carry": 4.7,
+        "fantasy_points_per_game": 14.6,
+        "touches_per_game": 18.1,
+        "position_rank": 1
+      }
+    ],
+    "WR": [
+      {
+        "player_name": "Tyreek Hill",
+        "team": "Miami",
+        "position": "WR",
+        "games_played": 8,
+        "receptions": 52,
+        "receiving_yards": 743,
+        "receiving_tds": 3,
+        "base_fantasy_points": 144.3,
+        "adjusted_fantasy_points": 144.3,
+        "yards_per_reception": 14.3,
+        "fantasy_points_per_game": 18.0,
+        "targets_estimated": 73,
+        "position_rank": 1
+      }
+    ],
+    "TE": [
+      {
+        "player_name": "Travis Kelce",
+        "team": "Kansas City",
+        "position": "TE",
+        "games_played": 8,
+        "receptions": 46,
+        "receiving_yards": 515,
+        "receiving_tds": 2,
+        "base_fantasy_points": 109.5,
+        "adjusted_fantasy_points": 109.5,
+        "yards_per_reception": 11.2,
+        "fantasy_points_per_game": 13.7,
+        "targets_estimated": 64,
+        "position_rank": 1
+      }
+    ]
+  },
+  "analytics": {
+    "data_quality": {
+      "teams_scraped": 32,
+      "players_scraped": 200,
+      "scrape_timestamp": "2024-09-13T10:25:00.000000",
+      "data_completeness": {
+        "team_avg_completeness": 95.2,
+        "QB_avg_completeness": 92.8,
+        "RB_avg_completeness": 89.4,
+        "WR_avg_completeness": 91.7,
+        "TE_avg_completeness": 88.9
+      }
+    },
+    "league_insights": {
+      "defense": {
+        "avg_points_per_game": 22.4,
+        "best_defense_ppg": 16.2,
+        "worst_defense_ppg": 28.9,
+        "defense_variance": 12.8
+      }
+    },
+    "top_performers": {
+      "QB": [
+        {
+          "player_name": "Josh Allen",
+          "team": "Buffalo",
+          "passing_yards": 2543
+        }
+      ],
+      "RB": [
+        {
+          "player_name": "Christian McCaffrey",
+          "team": "San Francisco",
+          "rushing_yards": 687
+        }
+      ],
+      "WR": [
+        {
+          "player_name": "Tyreek Hill",
+          "team": "Miami",
+          "receiving_yards": 743
+        }
+      ],
+      "TE": [
+        {
+          "player_name": "Travis Kelce",
+          "team": "Kansas City",
+          "receiving_yards": 515
+        }
+      ]
+    }
+  }
+}
